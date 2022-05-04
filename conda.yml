@@ -1,0 +1,4 @@
+name: ml_flow
+channels:
+  - defaults
+prefix: /home/shreyakanodia/miniconda3/envs/ml_flow
