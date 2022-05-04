@@ -1,0 +1,15 @@
+artifact_uri: mlruns/1/db09e26ff04941199453325d107fc9b0/artifacts
+end_time: 1651679707466
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: deleted
+name: ''
+run_id: db09e26ff04941199453325d107fc9b0
+run_uuid: db09e26ff04941199453325d107fc9b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1651679707384
+status: 4
+tags: []
+user_id: shreyakanodia
