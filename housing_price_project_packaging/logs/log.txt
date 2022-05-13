@@ -1,0 +1,19 @@
+2022-05-12 19:55:43,340 - ingest_data.py - DEBUG - Fetched housing data.
+2022-05-12 19:55:43,361 - ingest_data.py - DEBUG - Loaded housing data into a csv file.
+2022-05-12 19:55:43,376 - ingest_data.py - DEBUG - Splitted data into train and test set using Startisifed Shuffling.
+2022-05-12 19:55:43,376 - ingest_data.py - DEBUG - Preprocessing...
+2022-05-12 19:55:43,412 - ingest_data.py - DEBUG - Preprocessing finished.
+2022-05-12 19:55:43,412 - ingest_data.py - DEBUG - Saving datasets.
+2022-05-12 19:55:43,547 - ingest_data.py - DEBUG - Preprocessed train datasets stored at data/processed_dataset/housing_train.csv.
+2022-05-12 19:55:43,585 - ingest_data.py - DEBUG - Preprocessed test datasets stored at data/processed_dataset/housing_test.csv.
+2022-05-12 19:55:48,964 - train.py - DEBUG - Loading the Test Dataset
+2022-05-12 19:55:48,966 - train.py - DEBUG - Creating X and y Variables
+2022-05-12 19:55:48,966 - train.py - DEBUG - Creating the Directory to save the Mode
+2022-05-12 19:55:48,976 - train.py - DEBUG - Training Linear Regressor Model and Saving it
+2022-05-12 19:55:49,197 - train.py - DEBUG - Training Decision Tree Regressor Model and Saving it
+2022-05-12 19:56:24,035 - train.py - DEBUG - Training Random Forest Regressor Model and Saving it
+2022-05-12 19:56:24,036 - train.py - DEBUG - Training And Saving Of Different Models done Successfully.
+2022-05-12 19:56:51,001 - score.py - DEBUG - Loading the Test Dataset
+2022-05-12 19:56:51,001 - score.py - DEBUG - Creating X and y Variables
+2022-05-12 19:56:51,083 - score.py - DEBUG - Loading models in a form of a list
+2022-05-12 19:56:51,188 - score.py - DEBUG - Scoring different Models
