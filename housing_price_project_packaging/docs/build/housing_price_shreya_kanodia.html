@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>housing_price_shreya_kanodia package &#8212; Housing_Price 0.3 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="housing-price-shreya-kanodia-package">
+<h1>housing_price_shreya_kanodia package<a class="headerlink" href="#housing-price-shreya-kanodia-package" title="Permalink to this headline">¶</a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="module-housing_price_shreya_kanodia.dict_Config_logger_implementation_file">
+<span id="housing-price-shreya-kanodia-dict-config-logger-implementation-file-module"></span><h2>housing_price_shreya_kanodia.dict_Config_logger_implementation_file module<a class="headerlink" href="#module-housing_price_shreya_kanodia.dict_Config_logger_implementation_file" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="housing_price_shreya_kanodia.dict_Config_logger_implementation_file.configure_logger">
+<span class="sig-prename descclassname"><span class="pre">housing_price_shreya_kanodia.dict_Config_logger_implementation_file.</span></span><span class="sig-name descname"><span class="pre">configure_logger</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">logger</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cfg</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_file</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">console</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">log_level</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'DEBUG'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'root'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#housing_price_shreya_kanodia.dict_Config_logger_implementation_file.configure_logger" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-housing_price_shreya_kanodia.ingest_data">
+<span id="housing-price-shreya-kanodia-ingest-data-module"></span><h2>housing_price_shreya_kanodia.ingest_data module<a class="headerlink" href="#module-housing_price_shreya_kanodia.ingest_data" title="Permalink to this headline">¶</a></h2>
+<p>A script to download and create training and validation datasets.
+Different input arguments this script will take are-</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>folder where data(raw and processed will be stored)</p></li>
+<li><p>Arguments for logging</p></li>
+</ol>
+</div></blockquote>
+<dl class="py function">
+<dt class="sig sig-object py" id="housing_price_shreya_kanodia.ingest_data.fetch_housing_data">
+<span class="sig-prename descclassname"><span class="pre">housing_price_shreya_kanodia.ingest_data.</span></span><span class="sig-name descname"><span class="pre">fetch_housing_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">housing_url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">housing_path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#housing_price_shreya_kanodia.ingest_data.fetch_housing_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="housing_price_shreya_kanodia.ingest_data.load_housing_data">
+<span class="sig-prename descclassname"><span class="pre">housing_price_shreya_kanodia.ingest_data.</span></span><span class="sig-name descname"><span class="pre">load_housing_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">housing_path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#housing_price_shreya_kanodia.ingest_data.load_housing_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="housing_price_shreya_kanodia.ingest_data.pre_process_data">
+<span class="sig-prename descclassname"><span class="pre">housing_price_shreya_kanodia.ingest_data.</span></span><span class="sig-name descname"><span class="pre">pre_process_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">imputer</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#housing_price_shreya_kanodia.ingest_data.pre_process_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-housing_price_shreya_kanodia.score">
+<span id="housing-price-shreya-kanodia-score-module"></span><h2>housing_price_shreya_kanodia.score module<a class="headerlink" href="#module-housing_price_shreya_kanodia.score" title="Permalink to this headline">¶</a></h2>
+<p>This script is used to score the model(s) we have trained in train.py file.
+Input Arguments taken by this script are-
+1) Folder where models are stored.
+2) Folder where test dataset is stored.
+3) Folder where output will be stored.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="housing_price_shreya_kanodia.score.X_y_creation">
+<span class="sig-prename descclassname"><span class="pre">housing_price_shreya_kanodia.score.</span></span><span class="sig-name descname"><span class="pre">X_y_creation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#housing_price_shreya_kanodia.score.X_y_creation" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="housing_price_shreya_kanodia.score.load_dataset">
+<span class="sig-prename descclassname"><span class="pre">housing_price_shreya_kanodia.score.</span></span><span class="sig-name descname"><span class="pre">load_dataset</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#housing_price_shreya_kanodia.score.load_dataset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="housing_price_shreya_kanodia.score.model_scoring">
+<span class="sig-prename descclassname"><span class="pre">housing_price_shreya_kanodia.score.</span></span><span class="sig-name descname"><span class="pre">model_scoring</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">models_list</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#housing_price_shreya_kanodia.score.model_scoring" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="housing_price_shreya_kanodia.score.models_list">
+<span class="sig-prename descclassname"><span class="pre">housing_price_shreya_kanodia.score.</span></span><span class="sig-name descname"><span class="pre">models_list</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model_folder</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#housing_price_shreya_kanodia.score.models_list" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-housing_price_shreya_kanodia.train">
+<span id="housing-price-shreya-kanodia-train-module"></span><h2>housing_price_shreya_kanodia.train module<a class="headerlink" href="#module-housing_price_shreya_kanodia.train" title="Permalink to this headline">¶</a></h2>
+<p>This script is used for training the model(s).
+Input Arguments for this script are-</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Folder Path where train dataset is stored.</p></li>
+<li><p>Folder Path where model will be saved</p></li>
+</ol>
+</div></blockquote>
+<dl class="py function">
+<dt class="sig sig-object py" id="housing_price_shreya_kanodia.train.X_y_creation">
+<span class="sig-prename descclassname"><span class="pre">housing_price_shreya_kanodia.train.</span></span><span class="sig-name descname"><span class="pre">X_y_creation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#housing_price_shreya_kanodia.train.X_y_creation" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="housing_price_shreya_kanodia.train.create_and_save_DTR_model">
+<span class="sig-prename descclassname"><span class="pre">housing_price_shreya_kanodia.train.</span></span><span class="sig-name descname"><span class="pre">create_and_save_DTR_model</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#housing_price_shreya_kanodia.train.create_and_save_DTR_model" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="housing_price_shreya_kanodia.train.create_and_save_LR_model">
+<span class="sig-prename descclassname"><span class="pre">housing_price_shreya_kanodia.train.</span></span><span class="sig-name descname"><span class="pre">create_and_save_LR_model</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#housing_price_shreya_kanodia.train.create_and_save_LR_model" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="housing_price_shreya_kanodia.train.create_and_save_RFR_model">
+<span class="sig-prename descclassname"><span class="pre">housing_price_shreya_kanodia.train.</span></span><span class="sig-name descname"><span class="pre">create_and_save_RFR_model</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#housing_price_shreya_kanodia.train.create_and_save_RFR_model" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="housing_price_shreya_kanodia.train.load_dataset">
+<span class="sig-prename descclassname"><span class="pre">housing_price_shreya_kanodia.train.</span></span><span class="sig-name descname"><span class="pre">load_dataset</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#housing_price_shreya_kanodia.train.load_dataset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</section>
+<section id="module-housing_price_shreya_kanodia">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-housing_price_shreya_kanodia" title="Permalink to this headline">¶</a></h2>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Housing_Price</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2022, Shreya Kanodia.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.4.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/housing_price_shreya_kanodia.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
