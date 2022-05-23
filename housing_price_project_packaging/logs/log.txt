@@ -17,3 +17,11 @@
 2022-05-12 19:56:51,001 - score.py - DEBUG - Creating X and y Variables
 2022-05-12 19:56:51,083 - score.py - DEBUG - Loading models in a form of a list
 2022-05-12 19:56:51,188 - score.py - DEBUG - Scoring different Models
+2022-05-21 10:37:52,310 - ingest_data.py - DEBUG - Fetched housing data.
+2022-05-21 10:37:52,372 - ingest_data.py - DEBUG - Loaded housing data into a csv file.
+2022-05-21 10:37:52,402 - ingest_data.py - DEBUG - Splitted data into train and test set using Startisifed Shuffling.
+2022-05-21 10:37:52,402 - ingest_data.py - DEBUG - Preprocessing...
+2022-05-21 10:37:52,511 - ingest_data.py - DEBUG - Preprocessing finished.
+2022-05-21 10:37:52,512 - ingest_data.py - DEBUG - Saving datasets.
+2022-05-21 10:37:52,737 - ingest_data.py - DEBUG - Preprocessed train datasets stored at data/processed_dataset/housing_train.csv.
+2022-05-21 10:37:52,775 - ingest_data.py - DEBUG - Preprocessed test datasets stored at data/processed_dataset/housing_test.csv.
